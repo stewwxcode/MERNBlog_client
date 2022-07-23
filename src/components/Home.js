@@ -44,7 +44,7 @@ const Home = ()=> {
             </Text>
             <br />
             <Text as={'span'} color={'red.400'}>
-              use everywhere!
+              Right place to find Tech Blogs!
             </Text>
           </Heading>
           <Text color={'black.500'}>

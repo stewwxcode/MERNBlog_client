@@ -64,7 +64,7 @@ export default function Navbar() {
 
                 {token ?
                     <>
-                        <CartPreview />
+                        {/*<CartPreview />*/}
                         <Button
                         onClick={()=>dispatch(logout())}
                             as={lee}
