@@ -8,6 +8,7 @@ import { loadUser, logout } from "./redux/actions/auth";
 import Loader from "./layout/Loader";
 import Home from './components/Home'
 import Login from "./components/auth/Login";
+import Signup from "./components/auth/Signup";
 import Admin from "./components/admin/Admin";
 import AdminWrapper from "./components/HOC/AdminWrapper";
 import Navbar from "./layout/Navbar";
@@ -40,6 +41,7 @@ const App = () => {
         <Route path="/shop" element={<Products/>}  />
         <Route path="/shop/:id" element={<Product/>}  />
         <Route path="/login" element={<Login/>}  />
+        <Route path="/signup" element={<Signup/>}  />
         <Route path='/cart' element={<Cart />} />
         <Route path="/admin" element={<AdminWrapper><Admin/></AdminWrapper>}  />
       </Routes>
@@ -47,5 +49,5 @@ const App = () => {
     </div>
    );
 }
- 
+
 export default App;

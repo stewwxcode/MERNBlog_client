@@ -28,13 +28,13 @@ export default function Values() {
     return (
         <Box background={'gray.50'} m={4} p={4}>
             <SimpleGrid columns={{ base: 1, md: 3 }} spacing={10}>
-                <Feature
-                    icon={<Icon as={FcCustomerSupport} w={10} h={10} />}
-                    title={'Easy Support'}
-                    text={
-                        'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...'
-                    }
-                />
+                {/*/<Feature
+                    //icon={<Icon as={FcCustomerSupport} w={10} h={10} />}
+                   // title={'Easy Support'}
+                   // text={
+                  //      'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...'
+                  //  }
+    />
                 <Feature
 
                     icon={<Icon color={'green.400'} as={FcRedo} w={10} h={10} />}
@@ -49,7 +49,7 @@ export default function Values() {
                     text={
                         'Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore...'
                     }
-                />
+                />*/}
             </SimpleGrid>
         </Box>
     );

@@ -72,10 +72,10 @@ export const CartOrderSummary = ({ total }) => {
         const options = {
             key: "rzp_test_g5IaMybMrLfCiM", // Enter the Key ID generated from the Dashboard
             amount: amount.toString(),
-            currency: currency,
-            name: "+Plus.",
+            //currency: currency,
+            //name: "+Plus.",
             description: "Test Transaction",
-            image: 'https://www.svgrepo.com/show/174895/orkut-logo.svg',
+           // image: 'https://www.svgrepo.com/show/174895/orkut-logo.svg',
             order_id: order_id,
             handler: async function (response) {
                 const data = {
@@ -90,8 +90,8 @@ export const CartOrderSummary = ({ total }) => {
                 alert(result.data.msg);
             },
             prefill: {
-                name: "Kartik Gupta",
-                email: "kartikdps.kg@gmail.com",
+                name: "Stewart Nadugaddi",
+                email: "stewartnadugaddi@gmail.com",
                 contact: "9999999999",
             },
             notes: {

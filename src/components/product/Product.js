@@ -86,14 +86,14 @@ export default function Product() {
                     <Text color={'gray.500'} fontSize={'lg'}>
                         {selectedProduct && selectedProduct.description}
                     </Text>
-                    <Stack
+                   <Stack
                         spacing={4}
                         divider={
                             <StackDivider
                                 borderColor={useColorModeValue('gray.100', 'gray.700')}
                             />
                         }>
-                        <Feature
+                         {/* <Feature
                             icon={
 
                                 <Icon as={IoScanOutline} color={'yellow.500'} w={5} h={5} />
@@ -113,10 +113,10 @@ export default function Product() {
                             icon={<Icon as={IoShieldCheckmarkOutline} color={'green.500'} w={5} h={5} />}
                             iconBg={useColorModeValue('green.100', 'green.900')}
                             text={'12 Months Warranty'}
-                        />
-                    </Stack>
-                    <Flex justifyContent={'space-between'} spacing={10} pt={2}>
-                        <Button
+                        />*/}
+                        </Stack>
+                {/*<Flex justifyContent={'space-between'} spacing={10} pt={2}>
+                       <Button
                             onClick={() => {
                                 dispatch(addToCart(selectedProduct))
                             }}
@@ -128,10 +128,16 @@ export default function Product() {
                             _hover={{
                                 bg: 'blue.400',
                             }}>
-                            Add To Cart &nbsp; &nbsp; <IoCartOutline size={30} />
+                         Add To Cart &nbsp; &nbsp; <IoCartOutline size={30} />
                         </Button>
                         <Heading color={'gray.900'} textAlign={'center'} borderRadius={'10px'} flexGrow={'2'} background={'gray.100'}> ₹ {selectedProduct && selectedProduct.markedPrice}</Heading>
-                    </Flex>
+                    
+                        </Flex>*/}
+                        <br></br>
+                        <br></br>
+                        <br></br>
+                        <br></br><br></br>
+                        
                 </Stack>
 
             </SimpleGrid>

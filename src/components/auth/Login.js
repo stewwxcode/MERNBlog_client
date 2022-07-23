@@ -41,7 +41,7 @@ const Login = ()=> {
         <Stack align={'center'}>
           <Heading fontSize={'4xl'}>Log in to your account</Heading>
           <Text fontSize={'lg'} color={'gray.600'}>
-            to enjoy all of our cool <Link color={'yellow.400'}>features</Link> ✌️
+            to enjoy all of our cool <Link color={'yellow.400'}>Blogs</Link> ✌️
           </Text>
         </Stack>
         <Box

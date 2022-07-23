@@ -8,7 +8,7 @@ const Products = () => {
   return (
     <Box w="100%" color="gray.600">
       <Flex justifyContent={"center"} flexDirection={"row"}>
-        <Heading>Showing All Products...</Heading>
+        <Heading>Showing All Blogs...</Heading>
         <br></br>
         <br></br>
         <br></br>

@@ -33,8 +33,8 @@ export default function Navbar() {
     return (
         <Box>
             <Flex
-                bg={useColorModeValue('white', 'gray.800')}
-                color={useColorModeValue('gray.600', 'white')}
+                bg={useColorModeValue('gray.50', 'gray.50')}
+                color={useColorModeValue('black.700', 'gray.200')}
                 minH={'60px'}
                 py={{ base: 2 }}
                 px={{ base: 4 }}
@@ -55,8 +55,9 @@ export default function Navbar() {
                     />
                 </Flex>
                 <Flex flex={{ base: 1 }} justify={{ base: 'center', md: 'start' }}>
-                    <Link to='/' as={lee} ><Image hr borderRadius="full" boxSize="50px" src='https://www.svgrepo.com/show/174895/orkut-logo.svg' /></Link>
+                    <Link to='/' as={lee} ><Image hr borderRadius="full" boxSize="50px" src='https://www.blogger.com/img/logo_blogger_40px.png' /></Link>
                     <Flex align={'center'} display={{ base: 'none', md: 'flex' }} ml={10}>
+                 
                         <DesktopNav />
                     </Flex>
                 </Flex>
@@ -208,16 +209,16 @@ const MobileNavItem = ({ label, children, href }) => {
 
 const NAV_ITEMS = [
     {
-        label: 'Shop',
-        to: '/shop'
-    },
-    {
-        label: 'Shop for iPhone',
+        label: 'All Blogs',
         to: '/shop?q=iphone'
     },
     {
-        label: 'Shop for Watch',
-        to: '/shop?q=watch'
+        label: 'Home',
+        to: '/'
+    },
+    {
+        label: 'Contact',
+        to: '/Footer'
 
     },
     // {

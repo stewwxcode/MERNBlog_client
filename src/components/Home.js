@@ -40,40 +40,23 @@ const Home = ()=> {
                 bg: 'yellow.400',
                 zIndex: -1,
               }}>
-              TECH-Com,
+              BLOG-Spot,
             </Text>
             <br />
             <Text as={'span'} color={'red.400'}>
               use everywhere!
             </Text>
           </Heading>
-          <Text color={'gray.500'}>
-            Snippy is a rich coding snippets app that lets you create your own
-            code snippets, categorize them, and even sync them in the cloud so
-            you can use them anywhere. All that is free!
+          <Text color={'black.500'}>
+          <Heading>What is the MERN stack?</Heading><br></br>
+The phrase MERN stack refers to the following technologies:<br></br>
+
+MongoDB, a cross-platform document-oriented database program<br></br>
+Express.js, a web application framework for Node.js<br></br>
+React, a JavaScript library for building user interfaces<br></br>
+Node.js, an open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser<br></br>
           </Text>
-          <Stack
-            spacing={{ base: 4, sm: 6 }}
-            direction={{ base: 'column', sm: 'row' }}>
-            <Button
-              rounded={'full'}
-              size={'lg'}
-              fontWeight={'normal'}
-              px={6}
-              colorScheme={'red'}
-              bg={'yellow.400'}
-              _hover={{ bg: 'red.500' }}>
-              Shop Now
-            </Button>
-            <Button
-              rounded={'full'}
-              size={'lg'}
-              fontWeight={'normal'}
-              px={6}
-              leftIcon={<PlayIcon h={4} w={4} color={'gray.300'} />}>
-              How It Works
-            </Button>
-          </Stack>
+          
         </Stack>
         <Flex
           flex={1}
@@ -97,18 +80,18 @@ const Home = ()=> {
             boxShadow={'2xl'}
             width={'full'}
             overflow={'hidden'}>
-            <IconButton
+           {/* <IconButton
               aria-label={'Play Button'}
               variant={'ghost'}
               _hover={{ bg: 'transparent' }}
-              icon={<PlayIcon w={12} h={12} />}
+              //icon={<PlayIcon w={12} h={12} />}
               size={'lg'}
               color={'white'}
               position={'absolute'}
               left={'50%'}
               top={'50%'}
               transform={'translateX(-50%) translateY(-50%)'}
-            />
+            />*/}
             <Image
               alt={'Hero Image'}
               fit={'cover'}
@@ -116,7 +99,7 @@ const Home = ()=> {
               w={'100%'}
               h={'100%'}
               src={
-                'https://images.unsplash.com/photo-1499951360447-b19be8fe80f5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=800&q=80'
+                'https://i0.wp.com/dxminds.com/wp-content/uploads/2021/07/How-Much-Does-it-Cost-to-hire-Mern-stack-developer-1024x512.jpg'
               }
             />
           </Box>
